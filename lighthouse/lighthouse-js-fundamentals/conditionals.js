@@ -137,7 +137,7 @@ console.log("Now you're ready to go outside!");
 */
 
 
-
+/*
 const temperature = 0;
 
 if (temperature < 0) {
@@ -152,3 +152,50 @@ console.log("Now you're ready to go outside!");
 
 //Short sleeves won't cut it!
 //Now you're ready to go outside!
+*/
+
+
+//***************************************************************************
+//Here we're checking that both conditions, isCitizen and age > 18 are true 
+//for the if statement overall to evaluate to true. 
+//If any of our two conditions are false, then the whole expression is false.
+//***************************************************************************
+/*
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
+
+//You are eligible to vote.
+*/
+
+
+
+/*
+//Here our if statement is true when temperature is either below -40 or above 40 degrees.
+//const temperature = -63;
+//const temperature = 63;
+//const temperature = -40;        // not handled
+const temperature = 40;          // not handled
+if (temperature < -40 || temperature > 40) {
+  console.log("Maybe going outside isn't such a great idea…");
+}
+
+//Maybe going outside isn't such a great idea…
+*/
+
+/*
+**********************************************
+! operator reverses the value of raining. 
+That is, if raining is true, !raining is false. 
+If raining is false, !raining is true.
+************************************************/
+//const raining = false;        //Leave your umbrella at home!
+const raining = true;         //if condition has to be TRUE 
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
+
+
